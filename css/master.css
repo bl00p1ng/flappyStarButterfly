@@ -1,0 +1,79 @@
+/* Basic */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f3f3f4;
+} 
+/* Basic */
+
+nav 
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #99d3b4;
+    padding: 15px;
+    text-align: center;
+    color: #f8b5c0;
+    margin-bottom: 3em;
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logotype
+{
+    margin-right: 1em;
+}
+
+/* Game */
+    #game
+    {
+        width: 60%;
+        margin: 0 20%;
+        /* background-color: #f48a88; */
+        
+    }
+
+    #playground
+    {
+        border: 2px solid #c55298;
+        margin: auto;
+        display: block;
+        margin-top: 100px;
+    }
+/* Game */
+
+footer
+{
+    background-color: #99d3b4;
+    padding: 15px;
+    text-align: center;
+    color:#c44f8e;
+    margin-top: 200px;
+}
+
+footer small 
+{
+    font-size: 9px;
+}
+
+footer small a
+{
+    color: #c44f8e;
+    text-decoration: none;
+}
+
+footer small a:hover
+{
+    text-decoration: underline;
+}
